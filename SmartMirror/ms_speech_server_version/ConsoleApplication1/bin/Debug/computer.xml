@@ -1,0 +1,65 @@
+<grammar version="1.0" sapi:alphabet="x-microsoft-ups" xml:lang="ko-KR" root="Command"
+         tag-format="semantics-ms/1.0" xmlns="http://www.w3.org/2001/06/grammar"
+         xmlns:sapi="http://schemas.microsoft.com/Speech/2002/06/SRGSExtensions">
+  <rule id="Command" scope="public">
+    <one-of>
+
+      <!-- prefix -->
+      <item>음악</item>
+      <item>영화</item>
+      <item>지도</item>
+      <item>문서</item>
+      <item>종료</item>
+      <item>시간</item>
+      <item>검색</item>
+      <item>이미지검색</item>
+      
+      <!-- 음악 -->
+      <item>그대 바람이 되어</item>
+      <item>사랑이었다</item>
+      <item>남과 여</item>
+      <item>음악종료</item>
+      
+      <!-- 지도 검색어 -->
+      <item>인하대</item>
+      <item>정석공고</item>
+      <item>주안역</item>
+      
+      
+
+      <!-- 문서 -->
+      <item>스포츠</item>
+      <item>뉴스</item>
+      <item>소설</item>
+      <item>뻔</item>
+      <item>펀</item>
+      <item>번</item>
+      <item>재생</item>
+      
+      <!-- 영화 -->
+      <item>다음</item>
+      <item>이전</item>
+      <item>실행</item>
+      
+      <!-- 검색 -->
+      <item>치킨</item>
+      <item>아이유</item>
+      <item>트와이스</item>
+      <item>걸스데이</item>
+      <item>여자친구</item>
+      <item>러블리즈</item>
+      <item>에이핑크</item>
+      <item>혜리</item>
+      <item>민아</item>
+      <item>윤아</item>
+      <item>태연</item>
+      <item>소녀시대</item>
+      <item>우리형</item>
+      <item>호우</item>
+      <item>쯔위</item>
+      
+      
+
+    </one-of>
+  </rule>
+</grammar>
